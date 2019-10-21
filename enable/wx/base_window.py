@@ -435,9 +435,9 @@ class BaseWindow(AbstractWindow):
 
     def set_tooltip(self, tooltip):
         "Set the current tooltip for the window"
-        wx.ToolTip_Enable(False)
+        wx.ToolTip.Enable(False)
         self.control.SetToolTip(wx.ToolTip(tooltip))
-        wx.ToolTip_Enable(True)
+        wx.ToolTip.Enable(True)
         return
 
     def set_timer_interval(self, component, interval):
