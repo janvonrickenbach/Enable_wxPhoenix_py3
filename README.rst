@@ -11,6 +11,8 @@ http://docs.enthought.com/enable
 .. image:: https://coveralls.io/repos/enthought/enable/badge.png
    :target: https://coveralls.io/r/enthought/enable
    :alt: Coverage status
+   
+This is a fork of the Enable Project that adds support wxPythonPhoenix and Python3   
 
 The Enable *project* provides two related multi-platform *packages* for drawing
 GUI objects.
